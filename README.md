@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors Game
+# 🪨Rock , 📰Paper, ✂️Scissors Game
 
 This is a simple Rock, Paper, Scissors game where the player competes against the computer in a quick and fun match!
 
