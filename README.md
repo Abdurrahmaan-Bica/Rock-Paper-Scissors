@@ -3,9 +3,8 @@
 This is a simple Rock, Paper, Scissors game where the player competes against the computer in a quick and fun match!
 
 ## How to Play
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
+1. Open https://rock-paper-scissors-9sm30ccmq-abdur-rahmaan-faruks-projects.vercel.app/ or clone the repository to your local machine.
+2. If you did not clone tou your local machine, skip this step. Open the index.html on your browser.
 3. Click on one of the buttons to choose your move: Rock, Paper, or Scissors.
 4. The computer will also make its move automatically.
 5. The result of the round will be displayed on the screen.
