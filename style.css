@@ -1,0 +1,242 @@
+body {
+    font-family: monospace;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    text-align: center; /* Centralizar o texto */
+}
+
+#headingOne {
+    margin-top: 90px;
+    font-family: monospace;
+    font-size: 30pt;
+    display: flex;
+    align-items: center;
+    color: aqua;
+}
+
+#gameInfo {
+    font-size: 15pt;
+    margin-top: -10px;
+    color: aqua;
+}
+
+.choices {
+    font-family: monospace;
+    margin-top: 20px; /* Aumentado o espaço entre gameInfo e buttons */
+    margin-bottom: 30px;
+    color: aqua;
+}
+
+.choices button {
+    min-width: 160px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 250px;
+    background-color: aqua;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    color: black;
+}
+
+.choices button:hover {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), orange, yellow, green, blue, indigo, violet, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 200s linear infinite;
+    background-color: white;
+}
+
+#playerDisplay {
+    margin-top: 15px;
+    font-size: 15pt;
+    color: rgb(6, 99, 240);
+}
+
+#computerDisplay {
+    margin-top: 35px;
+    font-size: 15pt;
+    color: rgb(255, 72, 0);
+}
+
+#resultDisplay {
+    color: rgb(218, 218, 218);
+    font-size: 30pt;
+    margin-top: 20px;
+}
+
+.gameAuthor {
+    text-align: center;
+    position: relative;
+    color: aqua;
+    margin-top: 150px;
+    font-size: 12pt;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), orange, yellow, green, blue, indigo, violet, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 200s linear infinite;
+}
+
+#gameAuthor:hover {
+    cursor: pointer;
+    color: rgb(250, 253, 69);
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #headingOne{
+        margin-top: 60px; 
+        font-size: 20pt;
+    }
+    #gameInfo{
+        font-size: 15pt;
+        margin-top: 30px; 
+    }
+    .choices{
+        margin-top: 30px; 
+    }
+    #playerDisplay,
+    #computerDisplay,
+    #resultDisplay {
+        font-size: 18pt;
+        margin-top: 30px; 
+    }
+    .choices button {
+        font-size: 15pt;
+        min-width: 140px;
+        padding: 10px 20px;
+        margin: 5px;
+    }
+    .gameAuthor {
+        position: relative;
+        font-size: 12pt;
+        margin-top: 200px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #headingOne{
+        margin-top: 40px;
+        font-size: 28pt;
+    }
+    #gameInfo{
+        font-size: 14pt;
+        margin-top: 0;
+    }
+    .choices{
+        margin-top: 20px;
+    } 
+    #playerDisplay{
+        font-size: 16pt;
+    }
+    #computerDisplay{
+        font-size: 16pt;
+    }
+    #resultDisplay{
+        font-size: 16pt;
+    }
+    .choices button{
+        font-size: 14pt;
+        min-width: 120px;
+        margin: 5px;
+    }
+    .gameAuthor{
+        font-size: 11pt;
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #headingOne {
+        margin-top: 60px;
+        font-size: 32pt;
+    }
+    #gameInfo {
+        font-size: 16pt;
+        margin-top: 10px;
+    }
+    .choices {
+        margin-top: 20px;
+    }
+    #playerDisplay,
+    #computerDisplay,
+    #resultDisplay {
+        font-size: 18pt;
+    }
+    .choices button {
+        font-size: 16pt;
+        min-width: 140px;
+        margin: 10px;
+    }
+    .gameAuthor {
+        font-size: 12pt;
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #headingOne {
+        margin-top: 80px;
+        font-size: 36pt;
+    }
+    #gameInfo {
+        font-size: 18pt;
+        margin-top: 20px;
+    }
+    .choices {
+        margin-top: 20px; 
+    }
+    #playerDisplay,
+    #computerDisplay,
+    #resultDisplay {
+        font-size: 20pt;
+    }
+    .choices button {
+        font-size: 18pt;
+        min-width: 160px;
+        margin: 10px;
+    }
+    .gameAuthor {
+        font-size: 13pt;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1600px) {
+    #headingOne {
+        margin-top: 90px;
+        font-size: 40pt;
+    }
+    #gameInfo {
+        font-size: 20pt;
+        margin-top: 30px;
+    }
+    .choices {
+        margin-top: 20px; 
+    }
+    #playerDisplay,
+    #computerDisplay,
+    #resultDisplay {
+        font-size: 22pt;
+    }
+    .choices button {
+        font-size: 20pt;
+        min-width: 180px;
+        margin: 15px;
+    }
+    .gameAuthor {
+        font-size: 14pt;
+        margin-top: 120px;
+    }
+}
