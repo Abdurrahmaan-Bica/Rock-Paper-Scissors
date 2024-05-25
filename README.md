@@ -3,7 +3,7 @@
 This is a simple Rock, Paper, Scissors game where the player competes against the computer in a quick and fun match!
 
 ## How to Play
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine or open https://abdurahmaan-rock-paper-scissors-game.vercel.app/
 2. Open the index.html on your preffered browser.
 3. Click on one of the buttons to choose your move: Rock, Paper, or Scissors.
 4. The computer will also make its move automatically.
