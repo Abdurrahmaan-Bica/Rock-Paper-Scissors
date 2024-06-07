@@ -15,13 +15,13 @@ body {
     font-size: 30pt;
     display: flex;
     align-items: center;
-    color: aqua;
+    color: white;
 }
 
 #gameInfo {
     font-size: 15pt;
     margin-top: -10px;
-    color: aqua;
+    color: white;
 }
 
 .choices {
