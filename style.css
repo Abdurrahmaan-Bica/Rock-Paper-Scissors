@@ -96,7 +96,7 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
     #headingOne{
         margin-top: 60px; 
-        font-size: 20pt;
+        font-size: 15pt;
     }
     #gameInfo{
         font-size: 15pt;
