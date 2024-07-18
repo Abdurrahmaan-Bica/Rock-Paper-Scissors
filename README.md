@@ -1,4 +1,4 @@
-# 🪨Rock , 📰Paper, ✂️Scissors Game
+# Rock ,Paper, Scissors
 
 Rock, Paper, Scissors is a classsic game designed to bring joy and fun in a quick and exciting match against the computer. Get ready to challenge your skills and see if you can outsmart the machine!
 
@@ -11,6 +11,9 @@ Rock, Paper, Scissors is a user-friendly web game designed to operate across var
 4. The computer will also make its move automatically.
 5. The result of the round will be displayed on the screen.
 6. Repeat the process to play again!
+
+## Features 
+Responsive Design: Adapts to different screen sizes to provide optimal usability.
 
 ## Future Modifications
 
