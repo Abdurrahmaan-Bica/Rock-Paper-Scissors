@@ -28,6 +28,7 @@ Contributions are welcome! If you have suggestions for improvements or bug fixes
 
 # Testing
 **Accessibility:** I ran a lighthouse test for mobile and desktop and all the scores were at least 90.
-    ![screenshot](lighthouse_test_desktop&mobile.png)
+
+![screenshot](image_lighthouse_test.png)
 
 
