@@ -1,4 +1,4 @@
-# Rock ,Paper, Scissors
+# Rock ,Paper, Scissors Game
 
 Rock, Paper, Scissors is a classsic game designed to bring joy and fun in a quick and exciting match against the computer. Get ready to challenge your skills and see if you can outsmart the machine!
 
@@ -14,8 +14,9 @@ Rock, Paper, Scissors is a user-friendly web game designed to operate across var
 
 ## Features 
 Responsive Design: Adapts to different screen sizes to provide optimal usability.
+User-Friendly Interface: Clean and responsive design with easy-to-understand buttons and clear result outputs.
 
-## Future Modifications
+## Future features
 
 - **Add Score:** A planned future modification is to add a scoring system to keep track of the player's and computer's number of wins.
 - **Enhanced Interface:** We can improve the user interface by adding visual elements like scoreboards and animations.
@@ -24,3 +25,10 @@ Responsive Design: Adapts to different screen sizes to provide optimal usability
 ## Contributions
 
 Contributions are welcome! If you have suggestions for improvements or bug fixes, feel free to submit a pull request or open an issue in this repository.
+
+# Testing
+**Accessibility**
+    I ran a lighthouse test for mobile and desktop and all the scores were at least 90.
+    ![screenshot](lighthouse_test_desktop&mobile.png)
+
+

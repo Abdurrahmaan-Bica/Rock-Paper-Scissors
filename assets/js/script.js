@@ -27,7 +27,6 @@ function playGame(playerSelection) {
 
     playerDisplay.innerHTML = `Player: ${playerSelection}`;
     computerDisplay.innerHTML = `Computer: ${computerSelection}`;
-
     if (result === "Draw") {
         resultDisplay.innerHTML = 'It is a Draw!';
     } else if (result === "Player") {
