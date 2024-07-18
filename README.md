@@ -27,8 +27,7 @@ Rock, Paper, Scissors is a user-friendly web game designed to operate across var
 Contributions are welcome! If you have suggestions for improvements or bug fixes, feel free to submit a pull request or open an issue in this repository.
 
 # Testing
-- **Accessibility**
-I ran a lighthouse test for mobile and desktop and all the scores were at least 90.
-![screenshot](lighthouse_test_desktop&mobile.png)
+**Accessibility:** I ran a lighthouse test for mobile and desktop and all the scores were at least 90.
+    ![screenshot](lighthouse_test_desktop&mobile.png)
 
 
