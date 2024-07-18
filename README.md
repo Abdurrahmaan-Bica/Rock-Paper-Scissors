@@ -1,6 +1,8 @@
 # 🪨Rock , 📰Paper, ✂️Scissors Game
 
-This is a simple Rock, Paper, Scissors game where the player competes against the computer in a quick and fun match!
+Rock, Paper, Scissors is a classsic game designed to bring joy and fun in a quick and exciting match against the computer. Get ready to challenge your skills and see if you can outsmart the machine!
+
+Rock, Paper, Scissors is a user-friendly web game designed to operate across various screen sizes, from small mobile devices to larger desktop screens. Whether you're playing on your smartphone, tablet, or computer, the game ensures a consistent and intuitive experience for enjoying quick and fun matches.
 
 ## How to Play
 1. Clone the repository to your local machine or open https://abdurahmaan-rock-paper-scissors-game.vercel.app/ to play.
